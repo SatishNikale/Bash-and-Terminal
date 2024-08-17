@@ -1,0 +1,43 @@
+1. pwd -
+
+    The pwd command, which stands for "Print Working Directory".
+
+2. cd - 
+
+    The cd command, also known as chdir, is a command-line 
+    shell command that changes the current working directory in various operating systems.
+
+3. ls - 
+
+    ls is a command to list computer files and directories in Unix and Unix-like operating systems
+
+4. mkdir - 
+
+    The mkdir command creates one or more directories in a file system.
+
+5. touch - 
+
+    To make file in the system.
+
+6. cat -
+
+    To view content in your file.
+
+7. mv -
+
+    Used to Move file from one folder to another.
+
+8. cp -
+
+    Copy file from one folder to another
+
+9. nvm - (node version manager)
+
+
+10. npm - (node package manager)
+
+    Used to download dependencies in your file like, npm install express.
+
+11. node
+
+    Used to run javascript locally.
