@@ -90,6 +90,36 @@
     tail [filename] => gives Ending 10 lines of text in the file
         * tail -20 [filename] => last 20 lines.
         * tail - 50 [filename] => last 50 lines.
+        * tail -n +25 [filename] | head +10 [filename]
+
+11. wc (word count) : 
+
+    * wc [filename]
+
+    * grep "one" [filename] => search how many ones in given file/folder.
+
+    * grep "one" [filename] | wc => count how many "one" in files.
+
+    * grep -c "one" [filename] => count how many lines has string "one".
+
+    * grep -h "one" [filename] => Gives all of the match lines.
+
+    * grep -hi "one" [filename] => Gives all of the match lines ingnoring the case.
+
+    * grep -hi "one" [filename] => Gives all of the match lines ingnoring the cases with line numbers.
+
+    * grep -o "one" [filename] => Gives only occurences where "one" present.
+
+    * grep -w "one" [filename] => Show the whole lines where "One" present.
+
+12. history 0 => show history of all command which we ran today.
+
+13. bash => used to run bash script on your machine or virtual machine.
+
+
+
+
+
 
 
 
