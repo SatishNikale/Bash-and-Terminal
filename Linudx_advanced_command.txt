@@ -1,0 +1,95 @@
+1. ls (with options) :
+
+    ls used to display list of files.
+
+    * ls -l
+
+        It is used to list information about files and directories within the file system.
+
+    * ls -R
+
+        List files and directories recursively, including subdirectories.
+
+    * ls -lt
+    
+        Sort files and directories by their last modification time, displaying
+        the most recently modified ones first.
+    
+    * ls -la
+
+        Represent all files Include hidden files and directories in the listing.
+    
+    * ls -lRa 
+        Used to display all files including hidden files ecursively.
+
+    * ls -lr 
+        
+        List files in reverse order.
+
+    * ls -s
+        List files according to the file size.
+
+    * ls -lR | grep .js
+        
+        Display all the files recursively which having extesion .js 
+
+2. (cat with options) : 
+
+    * cat > [filename] - to add data in given file.
+    * cat >> [filename] - append data to the given file.
+
+3. (mkdir with option) : 
+    
+    * mkdir -p [filenames] - To create multiple directories and sundirectories.
+
+4. (Rename files using mv command) : 
+
+    mv [file1name] [file2name]
+
+    * We can rename wile moving 
+        ex. mv JS 100xDevs/Project/Javascript.
+
+5. (Copy file cp is used but if we want to copy folder then cp -r is used (menas recursively copy files)).
+
+6. (To remove file we use rm but if we want to remove folder then rm -r is used).
+
+7. chmod - (change mode of files/ folder(-R) [(rwx - read, write, execute)] )
+
+    * chmod ugo (ugo - user, group, other) 
+
+        ex-1 : chmod u-rwx [filename]
+        ex-2 : chmod g-rwx [filename]
+        ex-3 : chmod o-rwx [filename]
+            All of above 3 command used to remove(-) permission from file.
+
+        ex-1 : chmod u+rwx [filename]
+        ex-2 : chmod g+rwx [filename]
+        ex-3 : chmod o+rwx [filename]
+            All of above 3 command used to give(+) permission from file. 
+
+    ------------ One another way -------------
+    6 - no changes
+    4 - read
+    2 - write
+    1 - execute
+
+        ex - chmod 777 [filename] => give all the permission
+        ex - chmod 666 [filename] => there will be no changes
+        ex - chmod 664 [filename] => no change, no change, executable.
+
+
+8. echo - to display text on terminal
+
+    ex. echo "Hello world!";
+    ex. echo $PATH;
+
+10. head [filename] => give starting 10 lines of text in the file
+        * head -20 [filename] => first 20 lines.
+        * head - 50 [filename] => first 50 lines. 
+
+    tail [filename] => gives Ending 10 lines of text in the file
+        * tail -20 [filename] => last 20 lines.
+        * tail - 50 [filename] => last 50 lines.
+
+
+
